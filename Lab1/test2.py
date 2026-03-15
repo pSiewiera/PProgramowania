@@ -2,6 +2,7 @@
 import unittest
 from selenium import webdriver
 from selenium . webdriver . common . by import By
+import time
 class TestCase ( unittest . TestCase ):
     def setUp ( self ):
         self . driver = webdriver . Edge ()
@@ -30,3 +31,5 @@ class InputTesting ( TestCase ):
 unittest.main(argv=['first-arg-is-ignored'], exit=False)
 if __name__ == '__main__':
     unittest.main()
+
+    #test
